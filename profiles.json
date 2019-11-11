@@ -123,11 +123,10 @@
   },
   "profiles": [
     {
-      "acrylicOpacity": 0.6,
+      "acrylicOpacity": 0.7,
       "closeOnExit": true,
       "colorScheme": "Grape",
       "commandline": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
-      "backgroundImage": "C:\\Users\\Kevin\\.wt\\matrix-1.jpg",
       "backgroundImageOpacity": 0.1,
       "cursorColor": "#FF00FF",
       "cursorShape": "bar",
@@ -143,7 +142,7 @@
       "useAcrylic": true
     },
     {
-      "acrylicOpacity": 0.6,
+      "acrylicOpacity": 0.7,
       "background": "#012456",
       "closeOnExit": true,
       "colorScheme": "Grape",
@@ -162,7 +161,7 @@
       "useAcrylic": true
     },
     {
-      "acrylicOpacity": 0.6,
+      "acrylicOpacity": 0.7,
       "closeOnExit": true,
       "colorScheme": "Grape",
       "commandline": "cmd.exe",
