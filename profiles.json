@@ -1,0 +1,241 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "globals": {
+    "alwaysShowTabs": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "initialCols": 120,
+    "initialRows": 30,
+    "keybindings": [
+      {
+        "command": "newTab",
+        "keys": ["ctrl+t"]
+      },
+      {
+        "command": "newTabProfile0",
+        "keys": ["ctrl+shift+1"]
+      },
+      {
+        "command": "newTabProfile1",
+        "keys": ["ctrl+shift+2"]
+      },
+      {
+        "command": "newTabProfile2",
+        "keys": ["ctrl+shift+3"]
+      },
+      {
+        "command": "newTabProfile3",
+        "keys": ["ctrl+shift+4"]
+      },
+      {
+        "command": "newTabProfile4",
+        "keys": ["ctrl+shift+5"]
+      },
+      {
+        "command": "newTabProfile5",
+        "keys": ["ctrl+shift+6"]
+      },
+      {
+        "command": "newTabProfile6",
+        "keys": ["ctrl+shift+7"]
+      },
+      {
+        "command": "newTabProfile7",
+        "keys": ["ctrl+shift+8"]
+      },
+      {
+        "command": "newTabProfile8",
+        "keys": ["ctrl+shift+9"]
+      },
+      {
+        "command": "nextTab",
+        "keys": ["ctrl+tab"]
+      },
+      {
+        "command": "openSettings",
+        "keys": ["ctrl+,"]
+      },
+      {
+        "command": "prevTab",
+        "keys": ["ctrl+shift+tab"]
+      },
+      {
+        "command": "scrollDown",
+        "keys": ["ctrl+shift+down"]
+      },
+      {
+        "command": "scrollDownPage",
+        "keys": ["ctrl+shift+pgdn"]
+      },
+      {
+        "command": "scrollUp",
+        "keys": ["ctrl+shift+up"]
+      },
+      {
+        "command": "scrollUpPage",
+        "keys": ["ctrl+shift+pgup"]
+      },
+      {
+        "command": "switchToTab0",
+        "keys": ["alt+1"]
+      },
+      {
+        "command": "switchToTab1",
+        "keys": ["alt+2"]
+      },
+      {
+        "command": "switchToTab2",
+        "keys": ["alt+3"]
+      },
+      {
+        "command": "switchToTab3",
+        "keys": ["alt+4"]
+      },
+      {
+        "command": "switchToTab4",
+        "keys": ["alt+5"]
+      },
+      {
+        "command": "switchToTab5",
+        "keys": ["alt+6"]
+      },
+      {
+        "command": "switchToTab6",
+        "keys": ["alt+7"]
+      },
+      {
+        "command": "switchToTab7",
+        "keys": ["alt+8"]
+      },
+      {
+        "command": "switchToTab8",
+        "keys": ["alt+9"]
+      },
+      { "command": "splitHorizontal", "keys": ["ctrl+shift+-"] },
+      {
+        "command": "splitVertical",
+        "keys": ["ctrl+shift+="]
+      }
+    ],
+    "requestedTheme": "system",
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
+  },
+  "profiles": [
+    {
+      "acrylicOpacity": 0.6,
+      "closeOnExit": true,
+      "colorScheme": "Grape",
+      "commandline": "C:\\Program Files\\PowerShell\\6\\pwsh.exe",
+      "backgroundImage": "C:\\Users\\Kevin\\.wt\\matrix-1.jpg",
+      "backgroundImageOpacity": 0.1,
+      "cursorColor": "#FF00FF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code",
+      "fontSize": 11,
+      "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+      "historySize": 9001,
+      "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
+      "name": "PowerShell Core",
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%",
+      "useAcrylic": true
+    },
+    {
+      "acrylicOpacity": 0.6,
+      "background": "#012456",
+      "closeOnExit": true,
+      "colorScheme": "Grape",
+      "commandline": "powershell.exe",
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code",
+      "fontSize": 12,
+      "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+      "historySize": 9001,
+      "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+      "name": "Windows PowerShell",
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%",
+      "useAcrylic": true
+    },
+    {
+      "acrylicOpacity": 0.6,
+      "closeOnExit": true,
+      "colorScheme": "Grape",
+      "commandline": "cmd.exe",
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontSize": 14,
+      "fontFace": "Cascadia Code",
+      "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+      "historySize": 9001,
+      "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+      "name": "cmd",
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "startingDirectory": "%USERPROFILE%",
+      "useAcrylic": true
+    },
+    {
+      "acrylicOpacity": 0.6,
+      "closeOnExit": true,
+      "colorScheme": "Grape",
+      "commandline": "wsl.exe -d WLinux",
+      "cursorColor": "#FFFFFF",
+      "cursorShape": "bar",
+      "fontFace": "Cascadia Code",
+      "fontSize": 14,
+      "guid": "{7f586916-8357-53d4-bb2b-ca96f639898a}",
+      "historySize": 9001,
+      "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+      "name": "WLinux",
+      "padding": "0, 0, 0, 0",
+      "snapOnInput": true,
+      "useAcrylic": true
+    },
+    {
+      "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+      "hidden": false,
+      "name": "Ubuntu-18.04",
+      "source": "Windows.Terminal.Wsl"
+    },
+    {
+      "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+      "hidden": false,
+      "name": "Azure Cloud Shell",
+      "source": "Windows.Terminal.Azure"
+    },
+    {
+      "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+      "hidden": false,
+      "name": "Alpine",
+      "source": "Windows.Terminal.Wsl"
+    }
+  ],
+  "schemes": [
+    {
+      "background": "#171423",
+      "black": "#2D283F",
+      "blue": "#487DF4",
+      "brightBlack": "#59516A",
+      "brightBlue": "#A9BCEC",
+      "brightCyan": "#9DE3EB",
+      "brightGreen": "#53AA5E",
+      "brightPurple": "#AD81C2",
+      "brightRed": "#F0729A",
+      "brightWhite": "#A288F7",
+      "brightYellow": "#B2DC87",
+      "cyan": "#3BDEED",
+      "foreground": "#9F9FA1",
+      "green": "#1FA91B",
+      "name": "Grape",
+      "purple": "#8D35C9",
+      "red": "#ED2261",
+      "white": "#9E9EA0",
+      "yellow": "#8DDC20"
+    }
+  ]
+}
